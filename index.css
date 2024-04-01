@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(35, 145, 248);
+    color: #fff;
+}
+
+.left-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-menu a{
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #ffffff86;
+}
+
+#account, #device {
+    color: #fff;
+}
+
+.right-menu {
+    display: flex;
+    flex-direction: row;
+}
+.right-menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: #ffffff86;
+}
+
+.right-menu a:first-child{
+    color: #ffffffda;
+    font-size: 16pt;
+}
+
+.first-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box * {
+    margin: 10px;
+}
+
+.box div a {
+    color: rgb(35, 145, 248);
+}
+
+
+.user-profile {
+    background-color: #ffffff60;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.user-profile:hover {
+    font-size: 16pt;
+    color: #fff;
+    font-weight: 900;
+    transform: rotate(180deg);
+}
